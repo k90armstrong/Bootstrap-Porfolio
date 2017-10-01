@@ -1,0 +1,80 @@
+html,
+body {
+    height: 100% !important;
+    margin: 0 !important;
+    background-image: url("../images/skulls.png");
+}
+
+.all {
+    margin-bottom: -55px !important;
+    min-height: 100% !important;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.my-brand {
+    background-color: teal;
+    color: white !important;
+}
+
+.my-brand:hover {
+    background-color: teal !important;
+    color: white !important;
+}
+
+.push {
+    height: 84px;
+}
+
+footer {
+    background-color: #666666;
+    text-align: center;
+    border-top-color: teal;
+    border-top-width: 5px;
+    border-top-style: solid;
+    /* line-height: 50px; */
+    height: 55px;
+    color: grey;
+    /* margin-top: 50px; */
+}
+
+.my-pic {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.img-title {
+    position: relative;
+    bottom: 70px;
+    background-color: teal;
+    opacity: 0.75;
+    padding: 20px;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+.image-container {
+    overflow: hidden;
+    /* height: 150px; */
+    width: 250px;
+    /* padding: 16px; */
+    margin: 0 auto;
+    /* float: left; */
+    cursor: pointer;
+}
+
+.my-center {
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 640px) {
+    .full-header {
+        width: 100%;
+    }
+    .pull-left {
+        float: none !important;
+    }
+}
